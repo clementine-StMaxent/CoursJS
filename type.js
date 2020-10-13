@@ -18,4 +18,4 @@ console.log(obj)
 console.log(obj.age)
 console.log(obj["nom"])
 
-console.log({obj, array})
+console.log({ obj, array })

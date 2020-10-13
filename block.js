@@ -1,26 +1,26 @@
-if(true){
+if (true) {
 }
-else if(true){
+else if (true) {
 
-}else{
+} else {
 
 }
 
 while (false) {
-    
+
 }
 
-let array = ["a","b","c"]
+let array = ["a", "b", "c"]
 
 for (let i = 0; i < 3; i++) {
     console.log("hello", i);
 }
 
-for (let val in array){
+for (let val in array) {
     console.log(val)
 } //position
 
-for(let val of array){
+for (let val of array) {
     console.log(val)
 } //valeur
 
