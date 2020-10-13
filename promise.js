@@ -33,22 +33,27 @@ const fetch = require('node-fetch');
 // console.log("après")
 
 
-// let result = fetch("http://www.google.com", {
-//     method: "GET"
-//     // method: "POST"
-// });
+const main = async() =>{
+    let result = fetch("http://www.google.com", {
+    method: "GET"
+    // method: "POST"
+});
+//console.log(result);
+
+    let txt = await result.then(async data =>{
+        return await data.text();
+    })
+    console.log(txt)
+}
+main();
 
 
-// console.log(result);
-// result.then(async data => {
-
-//     let txt = await data.text();
-//     console.log(txt)
-// })
-
+ /*
 const asyncFoo = async () =>{
     console.log("in");
     return "ADMIN";
 }
-console.log(asyncFoo());
+let res = asyncFoo();
+console.log(res);
 console.log("après");
+*/
