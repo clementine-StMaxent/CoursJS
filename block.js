@@ -13,7 +13,7 @@ while (false) {
 let array = ["a", "b", "c"]
 
 for (let i = 0; i < 3; i++) {
-    console.log("hello", i);
+    console.log("hello World", i);
 }
 
 for (let val in array) {
