@@ -3,7 +3,7 @@ let string = "toto"; // 'toto' `toto`
 let boolean = true; //false
 
 let array = [0, 1, 2, "tata"];
-array.push("toto")
+array.push("titi")
 
 console.log(array)
 

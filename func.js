@@ -15,7 +15,7 @@ newFoo("Goodbye")
 console.log("-------------------------------")
 
 let varFoo = newFoo;
-varFoo("toto");
+varFoo("tata");
 
 
 let array = ["a", "b", "c", "d"];

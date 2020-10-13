@@ -1,7 +1,7 @@
 console.log("Hello World");
 
 var maVariable = 1; //ES5
-let maVar = 'Toto'; //ES6+
+let maVar = 'titi'; //ES6+
 maVar = "tutu";
 console.log(maVar)
 
